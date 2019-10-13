@@ -19,7 +19,6 @@ import { configureStore } from "redux-starter-kit";
 //import { compose, createStore } from "redux";
 import firebase from "@react-native-firebase/app";
 import firestore from "@react-native-firebase/firestore";
-
 import { reactReduxFirebase } from "react-redux-firebase";
 //import thunk from "redux-thunk";
 //import makeRootReducer from "./reducers";
@@ -66,18 +65,7 @@ export default (initialState = { firebase: {} }) => {
     // This is where you add other middleware like redux-observable
   ];
 
-  if (process.env.NODE_ENV === `development`) {
-    const { createLogger } = require(`redux-logger`);
-    const logger = createLogger({});
-    middleware.push(logger);
-  }
-
-  const enhancers = [
-    /*devTools({
-      name: "nativestarterkit",
-      realtime: true
-    })*/
-  ];
+  const enhancers = [];
 
   var testReducer = (state = 0, action) => state
   var store = configureStore({

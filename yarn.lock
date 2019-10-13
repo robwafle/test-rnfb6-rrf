@@ -1938,9 +1938,9 @@ core-js@^1.0.0:
   integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
 
 core-js@^2.2.2, core-js@^2.4.1:
-  version "2.6.9"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
-  integrity sha512-HOpZf6eXmnl7la+cUdMnLvUxKNqLUzJvgIziQ0DiF3JwSImNphIqdGqzj6hIKyX04MmV0poclQ7+wjWvxQyR2A==
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
+  integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -5564,10 +5564,10 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-redux-firebase@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/react-redux-firebase/-/react-redux-firebase-3.0.1.tgz#f719254df24ba99d2220a166ba7925cc50a2db33"
-  integrity sha512-bsnRuJf8VnuKFjZ1CAkjK4nJUBRnUw5fPXEJJJ1KT7u+/4Ws14aZ8vXDFaK66x+QOf3giZLZ430a3rnETyShEg==
+react-redux-firebase@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-redux-firebase/-/react-redux-firebase-3.0.2.tgz#4d5b6edb5b4f86167e2eb8062f02d0bd1914f489"
+  integrity sha512-1EFko9TiZkoHxRA76t9M9eX99/Q8zW4v6pI/DvY7M6nbPvRWebL967Ft/6vIUYeUqqBzOriOqYO91lFRJBtC6A==
   dependencies:
     hoist-non-react-statics "^3.3.0"
     lodash "^4.17.15"
